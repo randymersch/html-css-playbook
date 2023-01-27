@@ -1,0 +1,9 @@
+@media print{
+	table{
+		display: none;
+	}
+	
+	div.table{	
+		display: none;
+	}
+}

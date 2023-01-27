@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<style>
+			#chart{
+				background: conic-gradient(red 0deg, red 24deg,
+				green 24deg, green 72deg,
+				blue 72deg, blue 168deg,
+				orange 0deg);
+				
+				height: 800px;
+				width: 800px;
+				
+				border-radius: 50%;
+			}
+			
+			#chart div{
+				position: absolute;
+				color: white;
+				font-size: xx-large;
+			}
+			
+			.pie1{
+				left: 450px;
+				top: 40px;
+			}
+			
+			.pie2{
+				left: 600px;
+				top: 220px;
+			}
+			
+			.pie4{
+				left: 600px;
+				top: 480px;
+			}
+			
+			.pie8{
+				left: 200px;
+				top: 400px;
+			}
+		
+		</style>
+	</head>
+	<body>
+		<div id="main">
+		<!--
+			1,2,4,8
+			red, green, blue, orange
+		-->
+			<div id="chart">
+				<div class="pie1">1</div>
+				<div class="pie2">2</div>
+				<div class="pie4">4</div>
+				<div class="pie8">8</div>
+				<!-- 1+2+4+8 = 15
+				360/25 = 24
+				1 = 24
+				2 = 48 
+				4 = 96
+				8= 192 -->
+			</div>
+		</div>
+	</body>
+</html>
